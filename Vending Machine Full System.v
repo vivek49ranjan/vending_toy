@@ -15,8 +15,7 @@ module vending_top(
     output wire [3:0] five, ten, twenty, fifty, hundred
 );
 
-    // Internal signals
-    wire [7:0] balance;
+   
     wire [3:0] button_pressed;
     wire [7:0] price;
     wire press_valid_button;
@@ -483,7 +482,6 @@ module product_quantity(
     end
 
 endmodule
-
 
 
 
